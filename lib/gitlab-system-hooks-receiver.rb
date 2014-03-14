@@ -103,6 +103,7 @@ class GitLabSystemHooksReceiver
   end
 
   def process_project_create_event(request, response, payload)
+    # TODO notify to owner
     owner_email = payload["owner_email"]
     project_id = payload["project_id"]
     @options[:web_hooks].each do |web_hook|
