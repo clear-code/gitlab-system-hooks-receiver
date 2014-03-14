@@ -1,0 +1,6 @@
+private_token: VERY_SECRET_TOKEN
+api_end_point: https://gitlab.example.com/api/v3
+web_hooks:
+  - http://git-utils.example.com/post-receiver1
+  - http://git-utils.example.com/post-receiver2
+  - http://git-utils.example.com/post-receiver3
