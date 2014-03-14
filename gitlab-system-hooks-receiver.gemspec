@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GitLabSystemHooksReceiver::VERSION
   spec.authors       = ["Kenji Okimoto"]
   spec.email         = ["okimoto@clear-code.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Process GitLab System hooks.}
+  spec.description   = %q{Process GitLab System hooks.}
   spec.homepage      = ""
   spec.license       = "GPLv3 or later"
 
