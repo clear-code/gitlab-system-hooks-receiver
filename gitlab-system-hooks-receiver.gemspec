@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Process GitLab System hooks.}
   spec.description   = %q{Process GitLab System hooks.}
   spec.homepage      = ""
-  spec.license       = "GPLv3 or later"
+  spec.license       = "GPL-3.0+"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
