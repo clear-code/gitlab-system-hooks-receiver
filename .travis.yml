@@ -2,7 +2,6 @@ rvm:
   - 2.0.0
   - 2.1
   - 2.2
-gemfile: Gemfile.ci
 notifications:
   recipients:
     - commit@clear-code.com
