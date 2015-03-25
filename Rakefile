@@ -14,15 +14,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 require "bundler/gem_helper"
-
-module Bundler
-  class GemHelper
-    def version_tag
-      "#{version}"
-    end
-  end
-end
-
 require "bundler/gem_tasks"
 
 task :default => :test
