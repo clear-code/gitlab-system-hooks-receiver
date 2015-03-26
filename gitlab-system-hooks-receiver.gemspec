@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["okimoto@clear-code.com"]
   spec.summary       = %q{Process GitLab System hooks.}
   spec.description   = %q{Process GitLab System hooks.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/clear-code/gitlab-system-hooks-receiver"
   spec.license       = "GPL-3.0+"
 
   spec.files         = `git ls-files`.split($/)
