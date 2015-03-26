@@ -1,4 +1,4 @@
 # -*- coding: us-ascii -*-
-class GitLabSystemHooksReceiver
+module GitLabSystemHooksReceiver
   VERSION = "0.1.0"
 end

@@ -33,7 +33,7 @@ class SystemHooksReceiverTest < Test::Unit::TestCase
   end
 
   def app
-    GitLabSystemHooksReceiver.new(options)
+    GitLabSystemHooksReceiver::App.new(options)
   end
 
   def test_get
