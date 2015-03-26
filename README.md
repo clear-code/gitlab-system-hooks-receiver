@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/clear-code/gitlab-system-hooks-receiver.svg?branch=master)](https://travis-ci.org/clear-code/gitlab-system-hooks-receiver)
+
 # GitLabSystemHooksReceiver
 
 Process GitLab system hooks.
