@@ -47,5 +47,5 @@ notifiers = [Racknga::ExceptionMailNotifier.new(notifier_options)]
 use Racknga::Middleware::ExceptionNotifier, :notifiers => notifiers
 
 map "/system-hooks-receiver/" do
-  run GitLabSystemHooksReceiver.new(options)
+  run GitLabSystemHooksReceiver::App.new(options)
 end
