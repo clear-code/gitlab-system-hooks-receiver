@@ -22,7 +22,7 @@ require "json"
 
 require "github-web-hooks-receiver/base"
 
-class GitLabSystemHooksReceiver < GithubWebHooksReceiver::Base
+class GitLabSystemHooksReceiver < GitHubWebHooksReceiver::Base
 
   private
 
